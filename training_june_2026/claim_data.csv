@@ -1,0 +1,6 @@
+ClaimID,CustomerName,ClaimAmount,PreviousClaims,PolicyAgeMonths,DocumentsComplete
+C1001,Ahmed,2000,0,60,Yes
+C1002,John,50000,4,6,No
+C1003,Sarah,10000,1,36,Yes
+C1004,Ali,25000,3,12,Partial
+C1005,Fatima,1500,0,48,Yes
