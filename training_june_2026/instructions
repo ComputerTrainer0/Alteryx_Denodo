@@ -1,0 +1,12 @@
+Day 1: 
+
+Code 1 - RiskCategory:
+
+IF ToNumber([ClaimAmount]) > 20000 AND ToNumber([PreviousClaims]) >= 3 THEN "High Risk"
+ELSEIF [DocumentsComplete] = "No" THEN "High Risk"
+ELSEIF [DocumentsComplete] = "Partial" THEN "Review"
+ELSE "Low Risk"
+ENDIF
+
+Code 2 - RiskScore:
+
