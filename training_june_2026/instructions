@@ -1,5 +1,13 @@
 Day 1: 
 
+For Windows Virtual Desktop Username and password:
+https://docs.google.com/spreadsheets/d/1kibolXUBWEe4sk8kcHZmb9lwkkYOxTRh6civoYxFDf8/edit?usp=sharing
+
+For Windows Virutal Dekstop login:
+https://trainer-v2.cloudadda.com/dashboard
+
+
+
 Code 1 - RiskCategory:
 
 IF ToNumber([ClaimAmount]) > 20000 AND ToNumber([PreviousClaims]) >= 3 THEN "High Risk"
