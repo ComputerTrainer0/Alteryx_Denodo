@@ -20,3 +20,9 @@ ENDIF
 
 Code 2 - RiskScore:
 
+IF [RiskCategory] = "High Risk" THEN 100
+ELSEIF [RiskCategory] = "Review" THEN 50
+ELSE 10
+ENDIF
+
+==========================================
