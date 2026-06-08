@@ -26,3 +26,15 @@ ELSE 10
 ENDIF
 
 ==========================================
+
+
+Formula 3:
+
+IF [RiskScore] >= 100 THEN "Investigate"
+ELSEIF [RiskScore] >= 50 THEN "Manual Review"
+ELSE "Approved"
+ENDIF
+
+==========================================
+
+
